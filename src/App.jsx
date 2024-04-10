@@ -1,4 +1,4 @@
-
+import React from 'react'
 import './App.css'
 import PageFour from './Components/PageThree/PageFour/PageFour'
 import PageThree from './Components/PageThree/PageThree'
@@ -12,11 +12,11 @@ function App() {
   return (
     <>
     <Left/>
-    {/* <Signup/> */}
-    {/* <PageThree/> */}
-{/* <PageFour/> */}
-{/* <PageFive/> */}
-{/* <VerifyEmail/> */}
+    <Signup/>
+    <PageThree/>
+<PageFour/>
+<PageFive/>
+<VerifyEmail/>
 
     </>
   )
